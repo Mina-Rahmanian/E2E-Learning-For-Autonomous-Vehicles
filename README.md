@@ -16,7 +16,7 @@ The goal of this project is to train an End-to-End deep learning model based on 
 
 
 ## Dataset Collection
-The Udacity has released a simulator as an open source software (Fig left) which provides a tool to teach a car how to drive using only camera images and deep learning. Behavioral cloning technique is used to mimic human driving behavior in the training mode on the track. That means a dataset is generated in the simulator by user-driven car in training mode (Track 1) option (Fig right).
+The Udacity has released a simulator as an open source software (Fig left) which provides a tool to teach a car how to drive using only camera images and deep learning by mimic  from human driving behavior in the training mode on the track. That means a dataset is generated in the simulator by user-driven car in training mode (Track 1) option. After implementing our experiment on the trained E2E network, we can check if the car drives in the path by choosing Autonomous Mode in the simulator (Fig right). <br /> 
 
 <p align="center">
 <img width="350" height="200" hspace="20" alt="ss" src="https://user-images.githubusercontent.com/71558720/93714984-53249900-fb34-11ea-8b64-b53478ad68ce.png"/> 
