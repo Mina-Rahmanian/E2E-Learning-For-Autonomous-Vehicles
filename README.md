@@ -3,7 +3,10 @@
 
 The goal of this project is to train an End-to-End deep learning model based on Convolutional Neural Networks (CNN) that would let a car drive agent on the tracks of Udacity’s car simulator environment. Then, we train different deep network after applying the required data pre-processings, then, the performance of each model are compared. Results show that our developed model with filter leads to better autonomous driving in the Udacity simulator.
 
-<img width="378" alt="88" src="https://user-images.githubusercontent.com/71558720/93675553-f8c70200-fa79-11ea-93bd-457fd68e6627.PNG">
+<p align="center">
+   <img img width="600" height="250" alt="88" src="https://user-images.githubusercontent.com/71558720/93675553-f8c70200-fa79-11ea-93bd-457fd68e6627.PNG">
+ </p>
+ 
 <img width="416" alt="ss" src="https://user-images.githubusercontent.com/71558720/93714984-53249900-fb34-11ea-8b64-b53478ad68ce.png">  
 <img width="363" alt="train udicity" src="https://user-images.githubusercontent.com/71558720/93675645-ffee1000-fa79-11ea-942c-8c3f01992592.PNG">
 
