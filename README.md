@@ -47,14 +47,14 @@ The Fig below shows the data distribution chart of the steering wheel angle valu
 
 <p align="center">
   <img width="350" height="250" alt="1" src="https://user-images.githubusercontent.com/71558720/93786036-d14c7280-fbfc-11ea-8bd4-f3eaeab87311.PNG">
-  <img width="350" height="300" alt="2" src="https://user-images.githubusercontent.com/71558720/93786046-d4476300-fbfc-11ea-8785-ae67f133e5ef.PNG">
+  <img width="350" height="290" alt="2" src="https://user-images.githubusercontent.com/71558720/93786046-d4476300-fbfc-11ea-8785-ae67f133e5ef.PNG">
 </p> <br /> 
 
 ### Model 2 + Filter Savagol
 
 <p align="center">
    <img width="350" height="250" alt="before" src="https://user-images.githubusercontent.com/71558720/93786262-196b9500-fbfd-11ea-9d20-76df78493c4f.PNG">
-   <img width="350" height="300" alt="after" src="https://user-images.githubusercontent.com/71558720/93786254-1670a480-fbfd-11ea-8489-7b8e42431af0.PNG">
+   <img width="350" height="280" alt="after" src="https://user-images.githubusercontent.com/71558720/93786254-1670a480-fbfd-11ea-8489-7b8e42431af0.PNG">
 </p> <br /> 
 
 
