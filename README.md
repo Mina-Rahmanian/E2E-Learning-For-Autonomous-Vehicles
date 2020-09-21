@@ -31,12 +31,30 @@ The Udacity has released a simulator as an open source software (Fig left) which
 </p>
 <p align="center">
    <em>CSV file of dataset sample</em>
-</p>
+</p> <br /> 
 
 
+## Dataset Balance
+The Fig below shows the data distribution chart of the steering wheel angle values in the Udacity dataset. According to this figure, we see the steering angle does not change a lot except a spike in some frames; this shows that there are many straight lines in the Track 1 and the car is driving straight most of the time.
 
+<p align="center">
+   <img width="700" height="300" alt="distrobution" src="https://user-images.githubusercontent.com/71558720/93675598-fbc1f280-fa79-11ea-85c3-896ae64bfa09.PNG">
+</p> <br /> 
 
+ So, we need to balance the data by reducing straight line angles.
+ 
+ ### Model 1
 
+<p align="center">
+<img width="350" height="250" alt="1" src="https://user-images.githubusercontent.com/71558720/93786036-d14c7280-fbfc-11ea-8bd4-f3eaeab87311.PNG">
+<img width="350" height="250" alt="2" src="https://user-images.githubusercontent.com/71558720/93786046-d4476300-fbfc-11ea-8785-ae67f133e5ef.PNG"></p> <br /> 
+
+### Model 2 + Filter Savagol
+
+<p align="center">
+<img width="350" height="250" alt="after" src="https://user-images.githubusercontent.com/71558720/93786254-1670a480-fbfd-11ea-8489-7b8e42431af0.PNG">
+<img width="350" height="250" alt="before" src="https://user-images.githubusercontent.com/71558720/93786262-196b9500-fbfd-11ea-9d20-76df78493c4f.PNG">
+</p> <br /> 
 
 
 
