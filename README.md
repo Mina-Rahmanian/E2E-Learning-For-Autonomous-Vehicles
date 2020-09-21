@@ -107,13 +107,13 @@ The video of this simulation is available at :[Model 1 - link](https://youtu.be/
  
  * Model 2
  
- The result in figures below demonstrates that both validation and training loss and MSE noticeably get improved compared to the previous case. As we mention before filter helps reduce the training loss because the original signal for steering angle input is via the very discrete keyboard. This improvement is more sensible in the last epochs showing that the network is finally learning well with fewer fluctuations. However, the results are similar to the base Model 1 except in this case we observe better stability and the car drives smoother.<br />  
+ The result in figures below demonstrates that both validation and training loss and MSE noticeably get improved compared to the previous case. As we mention before filter helps reduce the training loss because the original signal for steering angle input is via the very discrete keyboard. This improvement is more sensible in the last epochs showing that the network is finally learning well with fewer fluctuations. However, the results are similar to the base Model 1 except in this case we observe better stability and the car drives smoother.<br />  <br /> 
  
  
 <p align="center">
 <img width="450" height="350" alt="b2" src="https://user-images.githubusercontent.com/71558720/93794501-28a31080-fc06-11ea-8015-df99f628cb58.PNG">
 <img width="450" height="350" alt="b1" src="https://user-images.githubusercontent.com/71558720/93794519-2d67c480-fc06-11ea-85db-c57b9611ee09.PNG">
-</p> <br />  <br />  <br />  
+</p> <br />  <br />   
 
 
  We also can find the tested car in the Udacity simulator in the following video which is available at: [Model 2+ Savgol Filter - link](https://youtu.be/spUJNUPLZZY) <br /> <br /> 
