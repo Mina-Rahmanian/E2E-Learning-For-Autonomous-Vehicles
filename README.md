@@ -26,7 +26,8 @@ The Udacity has released a simulator as an open source software (Fig left) which
 
 
 <p align="center">
-   <img width="600" height="250" alt="dataset" src="https://user-images.githubusercontent.com/71558720/93675577-fa90c580-fa79-11ea-9e04-f1f3a4668b10.PNG" title="CSV file of dataset sample">
+   <img width="700" height="300" alt="dataset" src="https://user-images.githubusercontent.com/71558720/93675577-fa90c580-fa79-11ea-9e04-f1f3a4668b10.PNG">
+   <em>CSV file of dataset sample</em>
 </p>
 
 
