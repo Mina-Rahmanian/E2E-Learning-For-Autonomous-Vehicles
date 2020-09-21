@@ -43,7 +43,7 @@ The Fig below shows the data distribution chart of the steering wheel angle valu
 
  So, we need to balance the data by reducing straight line angles.
  
- ### Model 1
+ #### 1) Model 1
 The first network consists of 9 layers, including a normalization layer, 5 convolutional layers and 3 fully connected layers. CNN layers are organized in series; various combinations of Time-Distributed Convolution layers, Subsampling, Flatten, Dense, etc. are used in architecture.<br /> The network architecture of Model 1 (Base model) is shown in Fig below.
 
 <p align="center">
@@ -61,7 +61,7 @@ Dataset balance in Model 1 is shown as Fig below:<br />
 </p> <br /> 
 
 
-### Model 2 +  Savgol Filter
+#### 2) Model 2 +  Savgol Filter
 This network differs from the first model with some modifications. The modifications include the addition of a normalization layer (Lambda λ),  3 dropouts (0.4) and 5 batch-normalization. Besides, in each 5 convolution layers, we added a kernel-regularizer(0.001), kernel-constraint, and bias-constraint for preventing overfitting in our model. <br /> Further modifications includes changing the angular changes of steering from 0.15 in main model to 0.25 in our model as well as splitting the training and validation data to %75 and %25. we also apply a Savitzky-Golay filter to the Steering angle and Speed columns. A Savitzky–Golay filter is a digital filter that can be applied to a set of digital data points to smooth the data, that is, to increase the precision of the data without distorting the signal tendency. The Savitzky-Golay filter removes high-frequency noise from data. The network architecture of Model 2 is shown in Fig below. <br /> 
 
 
@@ -91,7 +91,7 @@ It is a technique to artificially create new training data from existing trainin
 
 ## Implementation and Results
 
-* Model 1
+ #### 1) Model 1
  
  First, we implement the base model but with four different activation functions. We are interested to see the effect of activation function on the network performance and decide if it is better to replace the initial activation (Elu) function with a better one. The training and validation loss changes over epochs for four candidates activation functions: Elu, Relu, Sigmoid, and Swish. A comparison between these figures points out that the Relu activation function is a better candidate to work on for the base Model 1 in which the  Elu function had been used before. <br />
  
@@ -105,7 +105,7 @@ The video of this simulation is available at :[Model 1 - link](https://youtu.be/
 </p> <br />  <br /> 
  
  
- * Model 2
+#### 2) Model 2 +  Savgol Filter
  
  The result in figures below demonstrates that both validation and training loss and MSE noticeably get improved compared to the previous case. As we mention before filter helps reduce the training loss because the original signal for steering angle input is via the very discrete keyboard. This improvement is more sensible in the last epochs showing that the network is finally learning well with fewer fluctuations. However, the results are similar to the base Model 1 except in this case we observe better stability and the car drives smoother.<br />  <br /> 
  
