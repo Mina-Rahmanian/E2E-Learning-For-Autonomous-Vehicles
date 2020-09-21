@@ -21,12 +21,13 @@ The Udacity has released a simulator as an open source software (Fig left) which
 <p align="center">
 <img width="350" height="250" hspace="20" alt="ss" src="https://user-images.githubusercontent.com/71558720/93714984-53249900-fb34-11ea-8b64-b53478ad68ce.png"/> 
 <img width="350" height="250" hspace="20" alt="train udicity" src="https://user-images.githubusercontent.com/71558720/93675645-ffee1000-fa79-11ea-942c-8c3f01992592.PNG"/>
+</p> <br /> <br /> 
+
+
+
+<p align="center">
+   <img width="600" height="250" alt="dataset" src="https://user-images.githubusercontent.com/71558720/93675577-fa90c580-fa79-11ea-9e04-f1f3a4668b10.PNG" title="CSV file of dataset sample">
 </p>
-
-
-
-
-
 
 
 
