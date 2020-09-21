@@ -26,9 +26,9 @@ The Udacity has released a simulator as an open source software (Fig left) which
 
 
 <p align="center">
-   <img width="700" height="300" alt="dataset" src="https://user-images.githubusercontent.com/71558720/93675577-fa90c580-fa79-11ea-9e04-f1f3a4668b10.PNG">
-   
+   <img width="700" height="300" alt="dataset" src="https://user-images.githubusercontent.com/71558720/93675577-fa90c580-fa79-11ea-9e04-f1f3a4668b10.PNG"> 
 </p>
+
 <p align="center">
    <em>CSV file of dataset sample</em>
 </p> <br /> 
@@ -46,17 +46,22 @@ The Fig below shows the data distribution chart of the steering wheel angle valu
  ### Model 1
 
 <p align="center">
-  <img width="350" height="250" alt="1" src="https://user-images.githubusercontent.com/71558720/93786036-d14c7280-fbfc-11ea-8bd4-f3eaeab87311.PNG"> <br /> <em>Before</em>
-  <img width="350" height="290" alt="2" src="https://user-images.githubusercontent.com/71558720/93786046-d4476300-fbfc-11ea-8785-ae67f133e5ef.PNG"> <br /> <em>After</em>
-
+  <img width="350" height="250" alt="1" src="https://user-images.githubusercontent.com/71558720/93786036-d14c7280-fbfc-11ea-8bd4-f3eaeab87311.PNG"> 
+ <p align="center">
+   <em>Before</em>
+</p>
+  <img width="350" height="290" alt="2" src="https://user-images.githubusercontent.com/71558720/93786046-d4476300-fbfc-11ea-8785-ae67f133e5ef.PNG"> 
+ <p align="center">
+   <em>After</em>
+</p>
 </p> <br /> 
 
 
 ### Model 2 +  Savgol Filter
 
 <p align="center">
-   <img width="350" height="250" alt="before" src="https://user-images.githubusercontent.com/71558720/93786262-196b9500-fbfd-11ea-9d20-76df78493c4f.PNG"> <br /> <em>Before</em>
-   <img width="350" height="280" alt="after" src="https://user-images.githubusercontent.com/71558720/93786254-1670a480-fbfd-11ea-8489-7b8e42431af0.PNG">  <br />  <em>After</em>
+   <img width="350" height="250" alt="before" src="https://user-images.githubusercontent.com/71558720/93786262-196b9500-fbfd-11ea-9d20-76df78493c4f.PNG"> <em>Before</em>
+   <img width="350" height="280" alt="after" src="https://user-images.githubusercontent.com/71558720/93786254-1670a480-fbfd-11ea-8489-7b8e42431af0.PNG">   <em>After</em>
 </p> 
 
 
