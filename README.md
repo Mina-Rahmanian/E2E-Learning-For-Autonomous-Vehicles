@@ -6,12 +6,13 @@ Before knowledge:
 + NVIDIA 2016 Paper [End to End Learning for Self-Driving Cars](http://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf) would be good guide to understand the exact concept.
 + In a MIT winter 2017 course [Deep Learning for Self-Driving Cars](https://deeplearning.mit.edu/) , they are working on a deeptesla project and similar with this project.<br /><br />
 
-| Files                        | Are                             | 
-| -----------------------------|:-------------------------------:|
-| E2E_learning for AV.ipynb    | training model                  |
-| drive.py                     | drive a car in a simulator      | 
+| Files                        |                                    | 
+| -----------------------------|:----------------------------------:|
+| E2E_learning for AV.ipynb    | training model                     |
+| drive.py                     | drive a car in a simulator         | 
+| README.md                    | explanation of briefly the project |
 
-
+<br /><br /><br />
 The goal of this project is to train an End-to-End deep learning model based on Convolutional Neural Networks (CNN) that would let a car drive agent on the tracks of Udacity’s car simulator environment. Then, we train different deep network after applying the required data pre-processings, then, the performance of each model are compared. Results show that our developed model with filter leads to better autonomous driving in the Udacity simulator. <br /> <br />
 
 <p align="center">
