@@ -82,13 +82,31 @@ Dataset balance in Model 2 + Savgol Filter is shown as Fig below:
 <p align="center">
    <img width="350" height="250" hspace="20" alt="before" src="https://user-images.githubusercontent.com/71558720/93786262-196b9500-fbfd-11ea-9d20-76df78493c4f.PNG"> <em>Before</em>
    <img width="350" height="280" hspace="20" alt="after" src="https://user-images.githubusercontent.com/71558720/93786254-1670a480-fbfd-11ea-8489-7b8e42431af0.PNG">   <em>After</em>
-</p> 
+</p> <br />
 
 
+## DataAugmentation
+It is a technique to artificially create new training data from existing training data. This is done by applying domain-specific techniques such as artificial translational, zoom, brightness, and flipping images to teach the network how to recover from a poor position or orientation. The magnitude of these perturbations is chosen randomly from a normal distribution. <br />
 
 
+## Implementation and Results
 
-
-
-
+..* Model 1
+ 
+ First, we implement the base model but with four different activation functions. We are interested to see the effect of activation function on the network performance and decide if it is better to replace the initial activation (Elu) function with a better one. The training and validation loss changes over epochs for four candidates activation functions: Elu, Relu, Sigmoid, and Swish. A comparison between these figures points out that the Relu activation function is a better candidate to work on for the base Model 1 in which the  Elu function had been used before. <br />
+ 
+The video of this simulation is available at :[Model 1 - link](https://youtu.be/FllLgjnSRo8) <br />  <br /> 
+ 
+ 
+<p align="center">
+<img width="350" height="280" alt="relu" src="https://user-images.githubusercontent.com/71558720/93675619-fcf31f80-fa79-11ea-8903-b9ad28033def.PNG"></p> <br /> 
+<p align="center">
+   <em>Relu</em>
+</p> <br />  
+ 
+ 
+ ..* Model 2
+ 
+ 
+ 
  
