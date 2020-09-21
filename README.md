@@ -95,14 +95,14 @@ It is a technique to artificially create new training data from existing trainin
  
  First, we implement the base model but with four different activation functions. We are interested to see the effect of activation function on the network performance and decide if it is better to replace the initial activation (Elu) function with a better one. The training and validation loss changes over epochs for four candidates activation functions: Elu, Relu, Sigmoid, and Swish. A comparison between these figures points out that the Relu activation function is a better candidate to work on for the base Model 1 in which the  Elu function had been used before. <br />
  
-The video of this simulation is available at :[Model 1 - link](https://youtu.be/FllLgjnSRo8) <br />  <br /> 
+The video of this simulation is available at :[Model 1 - link](https://youtu.be/FllLgjnSRo8) <br />  <br /> <br /> 
  
  
 <p align="center">
-<img width="350" height="280" alt="relu" src="https://user-images.githubusercontent.com/71558720/93675619-fcf31f80-fa79-11ea-8903-b9ad28033def.PNG"></p> <br /> 
+<img width="450" height="350" alt="relu" src="https://user-images.githubusercontent.com/71558720/93675619-fcf31f80-fa79-11ea-8903-b9ad28033def.PNG"></p> <br /> 
 <p align="center">
    <em>Relu</em>
-</p> <br />  
+</p> <br />  <br /> 
  
  
  * Model 2
@@ -111,8 +111,8 @@ The video of this simulation is available at :[Model 1 - link](https://youtu.be/
  
  
 <p align="center">
-<img width="350" height="250" alt="b2" src="https://user-images.githubusercontent.com/71558720/93794501-28a31080-fc06-11ea-8015-df99f628cb58.PNG">
-<img width="350" height="250" alt="b1" src="https://user-images.githubusercontent.com/71558720/93794519-2d67c480-fc06-11ea-85db-c57b9611ee09.PNG">
+<img width="450" height="350" alt="b2" src="https://user-images.githubusercontent.com/71558720/93794501-28a31080-fc06-11ea-8015-df99f628cb58.PNG">
+<img width="450" height="350" alt="b1" src="https://user-images.githubusercontent.com/71558720/93794519-2d67c480-fc06-11ea-85db-c57b9611ee09.PNG">
 </p> <br />  <br />  <br />  
 
 
