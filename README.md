@@ -44,7 +44,7 @@ The Fig below shows the data distribution chart of the steering wheel angle valu
  So, we need to balance the data by reducing straight line angles.
  
  ### Model 1
-The first network consists of 9 layers, including a normalization layer, 5 convolutional layers and 3 fully connected layers. The network architecture is shown in Fig below. CNN layers are organized in series; various combinations of Time-Distributed Convolution layers, Subsampling, Flatten, Dense, etc. are used in architecture.<br />
+The first network consists of 9 layers, including a normalization layer, 5 convolutional layers and 3 fully connected layers. CNN layers are organized in series; various combinations of Time-Distributed Convolution layers, Subsampling, Flatten, Dense, etc. are used in architecture.<br /> The network architecture of Model 1 (Base model) is shown in Fig below.
 
 <p align="center">
 <img width="700" height="300" alt="aksarc" src="https://user-images.githubusercontent.com/71558720/93675564-f9f82f00-fa79-11ea-9bed-a6827dabfbed.PNG">
@@ -62,7 +62,7 @@ Dataset balance in Model 1 is shown as Fig below:<br />
 
 
 ### Model 2 +  Savgol Filter
-This network differs from the first model with some modifications. The modifications include the addition of a normalization layer (Lambda $\lambda$),  3 dropouts (0.4) and 5 batch-normalization. Besides, in each 5 convolution layers, we added a kernel-regularizer(0.001), kernel-constraint, and bias-constraint for preventing overfitting in our model. <br /> Further modifications includes changing the angular changes of steering from 0.15 in main model to 0.25 in our model as well as splitting the training and validation data to %75 and %25. we also apply a Savitzky-Golay filter to the Steering angle and Speed columns. The network architecture is shown in Fig below. <br /> 
+This network differs from the first model with some modifications. The modifications include the addition of a normalization layer (Lambda λ),  3 dropouts (0.4) and 5 batch-normalization. Besides, in each 5 convolution layers, we added a kernel-regularizer(0.001), kernel-constraint, and bias-constraint for preventing overfitting in our model. <br /> Further modifications includes changing the angular changes of steering from 0.15 in main model to 0.25 in our model as well as splitting the training and validation data to %75 and %25. we also apply a Savitzky-Golay filter to the Steering angle and Speed columns. A Savitzky–Golay filter is a digital filter that can be applied to a set of digital data points to smooth the data, that is, to increase the precision of the data without distorting the signal tendency. The Savitzky-Golay filter removes high-frequency noise from data. The network architecture of Model 2 is shown in Fig below. <br /> 
 
 
 <p align="center">
@@ -72,6 +72,10 @@ This network differs from the first model with some modifications. The modificat
    <em>Model 2</em>
 </p> <br />
 
+We apply the filter to the two components of our dataset in Python client as follow: <br />
+
+*signal.savgolfilter(column”steering”.values.tolist(),windowlength= 51,polyorder= 11)*<br />
+*signal.savgolfilter(column”speed”.values.tolist(),windowlength= 25,polyorder= 15)* <br /> <br /> <br />
 
 Dataset balance in Model 2 + Savgol Filter is shown as Fig below:
 
