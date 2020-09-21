@@ -91,7 +91,7 @@ It is a technique to artificially create new training data from existing trainin
 
 ## Implementation and Results
 
-..* Model 1
+* Model 1
  
  First, we implement the base model but with four different activation functions. We are interested to see the effect of activation function on the network performance and decide if it is better to replace the initial activation (Elu) function with a better one. The training and validation loss changes over epochs for four candidates activation functions: Elu, Relu, Sigmoid, and Swish. A comparison between these figures points out that the Relu activation function is a better candidate to work on for the base Model 1 in which the  Elu function had been used before. <br />
  
@@ -105,7 +105,7 @@ The video of this simulation is available at :[Model 1 - link](https://youtu.be/
 </p> <br />  
  
  
- ..* Model 2
+ * Model 2
  
  
  
