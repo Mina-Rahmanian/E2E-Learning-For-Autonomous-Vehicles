@@ -19,18 +19,19 @@ The goal of this project is to train an End-to-End deep learning model based on 
 The Udacity has released a simulator as an open source software (Fig left) which provides a tool to teach a car how to drive using only camera images and deep learning by mimic  from human driving behavior in the training mode on the track. That means a dataset is generated in the simulator by user-driven car in training mode (Track 1) option (Fig right). After implementing our experiment on the trained E2E network, we can check if the car drives in the path by choosing Autonomous Mode in the simulator (Fig left). <br /> 
 
 <p align="center">
-<img width="350" height="250" hspace="20" alt="ss" src="https://user-images.githubusercontent.com/71558720/93714984-53249900-fb34-11ea-8b64-b53478ad68ce.png"/> 
-<img width="350" height="250" hspace="20" alt="train udicity" src="https://user-images.githubusercontent.com/71558720/93675645-ffee1000-fa79-11ea-942c-8c3f01992592.PNG"/>
+   <img width="350" height="250" hspace="20" alt="ss" src="https://user-images.githubusercontent.com/71558720/93714984-53249900-fb34-11ea-8b64-b53478ad68ce.png"/> 
+   <img width="350" height="250" hspace="20" alt="train udicity" src="https://user-images.githubusercontent.com/71558720/93675645-ffee1000-fa79-11ea-942c-8c3f01992592.PNG"/>
 </p> <br /> <br /> 
 
 
 
 <p align="center">
    <img width="700" height="300" alt="dataset" src="https://user-images.githubusercontent.com/71558720/93675577-fa90c580-fa79-11ea-9e04-f1f3a4668b10.PNG">
+   
+</p>
+<p align="center">
    <em>CSV file of dataset sample</em>
 </p>
-
-
 
 
 
