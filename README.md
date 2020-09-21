@@ -44,6 +44,16 @@ The Fig below shows the data distribution chart of the steering wheel angle valu
  So, we need to balance the data by reducing straight line angles.
  
  ### Model 1
+The first network consists of 9 layers, including a normalization layer, 5 convolutional layers and 3 fully connected layers. The network architecture is shown in Fig below. CNN layers are organized in series; various combinations of Time-Distributed Convolution layers, Subsampling, Flatten, Dense, etc. are used in architecture.<br />
+
+<p align="center">
+<img width="700" height="300" alt="aksarc" src="https://user-images.githubusercontent.com/71558720/93675564-f9f82f00-fa79-11ea-9bed-a6827dabfbed.PNG">
+</p> <br /> 
+<p align="center">
+   <em>Model 1</em>
+</p> <br /> 
+
+Dataset balance in Model 1 is shown as Fig below:<br />
 
 <p align="center">
   <img width="350" height="250" hspace="20" alt="1" src="https://user-images.githubusercontent.com/71558720/93786036-d14c7280-fbfc-11ea-8bd4-f3eaeab87311.PNG"> <em>Before</em>
@@ -52,6 +62,18 @@ The Fig below shows the data distribution chart of the steering wheel angle valu
 
 
 ### Model 2 +  Savgol Filter
+This network differs from the first model with some modifications. The modifications include the addition of a normalization layer (Lambda $\lambda$),  3 dropouts (0.4) and 5 batch-normalization. Besides, in each 5 convolution layers, we added a kernel-regularizer(0.001), kernel-constraint, and bias-constraint for preventing overfitting in our model. <br /> Further modifications includes changing the angular changes of steering from 0.15 in main model to 0.25 in our model as well as splitting the training and validation data to %75 and %25. we also apply a Savitzky-Golay filter to the Steering angle and Speed columns. The network architecture is shown in Fig below. <br /> 
+
+
+<p align="center">
+<img width="700" height="300" alt="model2" src="https://user-images.githubusercontent.com/71558720/93675606-fc5a8900-fa79-11ea-9d55-f3376d558c14.PNG">
+</p> <br /> 
+<p align="center">
+   <em>Model 2</em>
+</p> <br />
+
+
+Dataset balance in Model 2 + Savgol Filter is shown as Fig below:
 
 <p align="center">
    <img width="350" height="250" hspace="20" alt="before" src="https://user-images.githubusercontent.com/71558720/93786262-196b9500-fbfd-11ea-9d20-76df78493c4f.PNG"> <em>Before</em>
