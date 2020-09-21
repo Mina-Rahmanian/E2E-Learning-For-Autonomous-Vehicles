@@ -47,7 +47,7 @@ The Fig below shows the data distribution chart of the steering wheel angle valu
 The first network consists of 9 layers, including a normalization layer, 5 convolutional layers and 3 fully connected layers. CNN layers are organized in series; various combinations of Time-Distributed Convolution layers, Subsampling, Flatten, Dense, etc. are used in architecture.<br /> The network architecture of Model 1 (Base model) is shown in Fig below.
 
 <p align="center">
-<img width="700" height="300" alt="aksarc" src="https://user-images.githubusercontent.com/71558720/93675564-f9f82f00-fa79-11ea-9bed-a6827dabfbed.PNG">
+<img width="800" height="400" alt="aksarc" src="https://user-images.githubusercontent.com/71558720/93675564-f9f82f00-fa79-11ea-9bed-a6827dabfbed.PNG">
 </p> <br /> 
 <p align="center">
    <em>Model 1</em>
@@ -66,7 +66,7 @@ This network differs from the first model with some modifications. The modificat
 
 
 <p align="center">
-<img width="700" height="300" alt="model2" src="https://user-images.githubusercontent.com/71558720/93675606-fc5a8900-fa79-11ea-9d55-f3376d558c14.PNG">
+<img width="800" height="400" alt="model2" src="https://user-images.githubusercontent.com/71558720/93675606-fc5a8900-fa79-11ea-9d55-f3376d558c14.PNG">
 </p> <br /> 
 <p align="center">
    <em>Model 2</em>
