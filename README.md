@@ -46,22 +46,16 @@ The Fig below shows the data distribution chart of the steering wheel angle valu
  ### Model 1
 
 <p align="center">
-  <img width="350" height="250" alt="1" src="https://user-images.githubusercontent.com/71558720/93786036-d14c7280-fbfc-11ea-8bd4-f3eaeab87311.PNG"> 
- <p align="center">
-   <em>Before</em>
-</p>
-  <img width="350" height="290" alt="2" src="https://user-images.githubusercontent.com/71558720/93786046-d4476300-fbfc-11ea-8785-ae67f133e5ef.PNG"> 
- <p align="center">
-   <em>After</em>
-</p>
+  <img width="350" height="250" hspace="20" alt="1" src="https://user-images.githubusercontent.com/71558720/93786036-d14c7280-fbfc-11ea-8bd4-f3eaeab87311.PNG"> <em>Before</em>
+  <img width="350" height="290" hspace="20" alt="2" src="https://user-images.githubusercontent.com/71558720/93786046-d4476300-fbfc-11ea-8785-ae67f133e5ef.PNG"> <em>After</em>
 </p> <br /> 
 
 
 ### Model 2 +  Savgol Filter
 
 <p align="center">
-   <img width="350" height="250" alt="before" src="https://user-images.githubusercontent.com/71558720/93786262-196b9500-fbfd-11ea-9d20-76df78493c4f.PNG"> <em>Before</em>
-   <img width="350" height="280" alt="after" src="https://user-images.githubusercontent.com/71558720/93786254-1670a480-fbfd-11ea-8489-7b8e42431af0.PNG">   <em>After</em>
+   <img width="350" height="250" hspace="20" alt="before" src="https://user-images.githubusercontent.com/71558720/93786262-196b9500-fbfd-11ea-9d20-76df78493c4f.PNG"> <em>Before</em>
+   <img width="350" height="280" hspace="20" alt="after" src="https://user-images.githubusercontent.com/71558720/93786254-1670a480-fbfd-11ea-8489-7b8e42431af0.PNG">   <em>After</em>
 </p> 
 
 
