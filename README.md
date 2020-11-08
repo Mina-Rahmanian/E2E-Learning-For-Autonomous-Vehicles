@@ -5,7 +5,7 @@
 Useful bits of knowledge before start:
 + NVIDIA 2016 Paper [End to End Learning for Self-Driving Cars](http://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf) would be good guide to understand the exact concept.
 + In a MIT winter 2017 course [Deep Learning for Self-Driving Cars](https://deeplearning.mit.edu/) , they are working on a deeptesla project and similar with this project.
-+ We will download the simulator from the [Udacity's Self-Driving Car Simulator](https://github.com/udacity/self-driving-car-sim) link.
++ We downloaded the simulator from the [Udacity's Self-Driving Car Simulator](https://github.com/udacity/self-driving-car-sim) link.
 <br /><br />
 
 | Files                        | Task                               | 
