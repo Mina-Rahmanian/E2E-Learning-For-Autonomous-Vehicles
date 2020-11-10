@@ -1,4 +1,4 @@
-# End-to-End Deep Learning for AV's Control (Keras/Tensorflow)
+# End-to-End Deep Learning for AV's Control  <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; (Keras/Tensorflow)
 <br /><br />
 ## Introduction
 
