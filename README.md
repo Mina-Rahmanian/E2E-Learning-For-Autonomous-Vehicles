@@ -10,8 +10,8 @@ Useful bits of knowledge before start:
 
 | Files                        | Task                               | 
 | -----------------------------|:----------------------------------:|
-| E2E_learning for AV.ipynb    | training model                     |
-| drive.py                     | drive a car in a simulator         | 
+| [E2E_learning for AV.ipynb](https://github.com/Mina-Rahmanian/E2E-Learning-For-Autonomous-Vehicles/blob/master/E2E_learning%20for%20AV.ipynb)   | training model                     |
+| [drive.py](https://github.com/Mina-Rahmanian/E2E-Learning-For-Autonomous-Vehicles/blob/master/drive.py)                     | drive a car in a simulator         | 
 | README.md                    | explanation of briefly the project |<br />
 
 ----------------------------------------------------------------------------------------------------
